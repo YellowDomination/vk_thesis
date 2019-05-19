@@ -1,0 +1,6 @@
+root - INFO - Saber invocation: 2019-05-09 15:57:27.641139
+===========================================================================
+smart_open.smart_open_lib - DEBUG - {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'r', 'uri': '/home/vk/anaconda3/envs/saber/lib/python3.6/site-packages/smart_open/VERSION'}
+gensim.summarization.textcleaner - INFO - 'pattern' package not found; tag filters are not available for English
+saber.config - ERROR - KeyError KeyError raised for key 'mode'. This may have happened because there is no *.ini file at: configs/baseline.ini
+saber.config - DEBUG - Hyperparameters and model details {}
