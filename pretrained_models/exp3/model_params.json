@@ -63,7 +63,7 @@
                         }
                     },
                     "embeddings_regularizer": null,
-                    "input_dim": 88,
+                    "input_dim": 93,
                     "input_length": null,
                     "mask_zero": true,
                     "name": "char_embedding_layer",
@@ -101,7 +101,7 @@
                         }
                     },
                     "embeddings_regularizer": null,
-                    "input_dim": 10122,
+                    "input_dim": 4969,
                     "input_length": null,
                     "mask_zero": true,
                     "name": "word_embedding_layer",
@@ -398,7 +398,7 @@
                             "kernel_regularizer": null,
                             "name": "dense_1",
                             "trainable": true,
-                            "units": 4,
+                            "units": 6,
                             "use_bias": true
                         }
                     },
@@ -442,7 +442,7 @@
                         }
                     },
                     "chain_regularizer": null,
-                    "input_dim": 4,
+                    "input_dim": 6,
                     "kernel_constraint": null,
                     "kernel_initializer": {
                         "class_name": "VarianceScaling",
@@ -459,7 +459,7 @@
                     "sparse_target": false,
                     "test_mode": "viterbi",
                     "trainable": true,
-                    "units": 4,
+                    "units": 6,
                     "unroll": false,
                     "use_bias": true,
                     "use_boundary": true
