@@ -1,0 +1,122 @@
+{
+    "train": {
+        "scores": {
+            "Disease": [
+                0.0,
+                0.0,
+                0.0,
+                4633
+            ],
+            "MACRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                4633
+            ],
+            "MICRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                4633
+            ]
+        },
+        "best_epoch_macro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                4633
+            ]
+        },
+        "best_epoch_micro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                4633
+            ]
+        }
+    },
+    "valid": {
+        "scores": {
+            "Disease": [
+                0.0,
+                0.0,
+                0.0,
+                499
+            ],
+            "MACRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                499
+            ],
+            "MICRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                499
+            ]
+        },
+        "best_epoch_macro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                499
+            ]
+        },
+        "best_epoch_micro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                499
+            ]
+        }
+    },
+    "test": {
+        "scores": {
+            "Disease": [
+                0.0,
+                0.0,
+                0.0,
+                960
+            ],
+            "MACRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                960
+            ],
+            "MICRO_AVG": [
+                0.0,
+                0.0,
+                0.0,
+                960
+            ]
+        },
+        "best_epoch_macro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                960
+            ]
+        },
+        "best_epoch_micro_avg": {
+            "epoch": 1,
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                960
+            ]
+        }
+    }
+}
