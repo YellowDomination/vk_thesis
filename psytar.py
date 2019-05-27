@@ -10,12 +10,12 @@ CONFIG_CADEC50 	= Config(filepath = "configs/cadec_50.ini")
 
 # ### PSYTAR + Health (50epochs) ###
 
-# saber = Saber(config = CONFIG_PSY50)
-# saber.load_dataset('datasets/PSYTAR')
-# saber.load_embeddings('word_embeddings/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin')
-# saber.build(model_name='MT-LSTM-CRF')
-# saber.train()
-# del saber
+saber = Saber(config = CONFIG_PSY50)
+saber.load_dataset('datasets/PSYTAR')
+saber.load_embeddings('word_embeddings/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin')
+saber.build()
+saber.train()
+del saber
 
 # ### PSYTAR + Health (10) => CADEC (50) => test on CADEC & PSYTAR
 
@@ -54,17 +54,17 @@ CONFIG_CADEC50 	= Config(filepath = "configs/cadec_50.ini")
 # saber.train()
 # saber.save('pretrained_models/cadec10')
 # del saber
-saber = Saber(config = CONFIG_PSY50)
-saber.load('pretrained_models/cadec10')
-saber.load_dataset('datasets/PSYTAR')
-saber.load_embeddings('word_embeddings/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin')
-saber.train()
-saber.save('pretrained_models/cadec10_psytar50')
+# saber = Saber(config = CONFIG_PSY50)
+# saber.load('pretrained_models/cadec10')
+# saber.load_dataset('datasets/PSYTAR')
+# saber.load_embeddings('word_embeddings/Health_2.5mreviews.s200.w10.n5.v15.cbow.bin')
+# saber.train()
+# saber.save('pretrained_models/cadec10_psytar50')
 
-# annotated_psytar = open('oj/PSYTAR/annotated_psytar_exp2.txt', 'w')
-# annotated_cadec = open('oj/PSYTAR/annotated_cadec_exp2.txt', 'w')
+# # annotated_psytar = open('oj/PSYTAR/annotated_psytar_exp2.txt', 'w')
+# # annotated_cadec = open('oj/PSYTAR/annotated_cadec_exp2.txt', 'w')
 
-# annotated_psytar.write(saber.annotate(plain_text_psytar))
-# annotated_cadec.write(saber.annotate(plain_text_cadec))
-del saber
+# # annotated_psytar.write(saber.annotate(plain_text_psytar))
+# # annotated_cadec.write(saber.annotate(plain_text_cadec))
+# del saber
 
